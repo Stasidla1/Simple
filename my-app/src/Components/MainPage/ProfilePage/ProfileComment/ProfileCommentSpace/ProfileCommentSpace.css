@@ -1,0 +1,13 @@
+.ProfileCommentField textarea {
+   width: 600px;
+   height: 100px;
+}
+
+.ProfileCommentField {
+   width: 600px;
+   margin: 0px auto;
+}
+
+.ProfileCommentField button {
+   float: right;
+}

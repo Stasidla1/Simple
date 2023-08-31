@@ -1,0 +1,12 @@
+.EnterSpace textarea {
+   width: 600px;
+   height: 110px;
+}
+
+.EnterSpace button {
+   float: right;
+}
+
+.EnterSpace {
+   width: 600px;
+}

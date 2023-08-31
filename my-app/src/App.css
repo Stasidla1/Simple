@@ -1,0 +1,26 @@
+.Wrapper {
+   width: 1300px;
+   min-height: 100vh;
+   margin: 0px auto;
+   display: grid;
+   grid-template-rows: 100px 1fr;
+   grid-template-columns: 200px 1100px;
+   grid-template-areas:
+      'Head Head'
+      'Sidebar MainPage';
+}
+
+.Header {
+   background-color: green;
+   grid-area: Head;
+}
+
+.MainPage {
+   background-color: rgb(83, 83, 227);
+   grid-area: MainPage;
+}
+
+.Sidebar {
+   grid-area: Sidebar;
+   background-color: aqua
+}

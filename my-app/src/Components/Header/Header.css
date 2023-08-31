@@ -1,0 +1,55 @@
+.Header_Logo img {
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+}
+
+.Header_Logo {
+   margin-top: 12px;
+   margin-left: 10px;
+}
+
+.Header {
+   display: grid;
+   grid-template-columns: 100px 1fr 100px;
+   grid-template-rows: 100px;
+   position: relative;
+}
+
+.HeaderData {
+   justify-self: right;
+   margin-right: 20px;
+   margin-top: 10px;
+}
+
+.Header_img img {
+   border-radius: 50%;
+   width: 40px;
+   height: 40px;
+   cursor: pointer;
+}
+
+.HeaderName {
+   cursor: pointer;
+}
+
+.HeaderLogin button {
+   cursor: pointer;
+}
+
+.HeaderLogin {
+   position: absolute;
+   top: 0px;
+   right: 10px;
+}
+
+.HeaderButton {
+   cursor: pointer;
+   align-self: center;
+   justify-self: right;
+}
+
+.HeaderMainData a {
+   text-decoration: none;
+   color: black;
+}

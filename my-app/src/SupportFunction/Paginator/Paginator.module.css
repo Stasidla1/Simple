@@ -1,0 +1,20 @@
+.Paginator {
+   border: 1px solid black;
+   margin: 4px;
+   font-size: 17px;
+   padding: 5px 9px 5px 5px;
+   cursor: pointer;
+}
+
+.AllPaginator {
+   margin: 20px;
+   text-align: center;
+}
+
+.AllPaginator button {
+   cursor: pointer;
+}
+
+.active {
+   font-weight: bold;
+}

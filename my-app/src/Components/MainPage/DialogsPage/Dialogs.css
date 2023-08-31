@@ -1,0 +1,19 @@
+.Dialogs {
+   display: grid;
+   grid-template-columns: 300px 1fr;
+   grid-template-rows: 70vh 30vh;
+   grid-template-areas: 'UserAll Chat''. EnterSpace';
+}
+
+
+.Chat {
+   grid-area: Chat;
+}
+
+.UserAll {
+   grid-area: UserAll;
+}
+
+.EnterSpace {
+   grid-area: EnterSpace;
+}

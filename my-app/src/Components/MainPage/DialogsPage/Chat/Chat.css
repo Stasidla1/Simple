@@ -1,0 +1,19 @@
+.EnterMessage {
+   margin-top: 20px;
+}
+
+.AnswerMessage {
+   text-align: right;
+   margin-top: 20px;
+   word-wrap: break-word;
+}
+
+.ChatAnswerMessage {
+   margin-top: 10px;
+}
+
+.Chat {
+   display: grid;
+   grid-template-columns: 300px 300px;
+   width: 600px;
+}

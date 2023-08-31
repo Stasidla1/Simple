@@ -1,0 +1,14 @@
+.ProfileMain {
+   display: grid;
+   grid-template-columns: 360px 1fr;
+   grid-template-areas: 'ProfileMainPhoto ProfileMainData';
+}
+
+.ProfileMainData {
+   grid-area: ProfileMainData;
+}
+
+.ProfileMainPhoto {
+   grid-area: ProfileMainPhoto;
+
+}

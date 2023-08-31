@@ -1,0 +1,19 @@
+.Profile {
+   display: grid;
+   grid-template-rows: 250px 0.5fr 1fr;
+   grid-template-areas: 'ProfileHeader''ProfileMain''ProfileComment';
+   gap: 20px;
+}
+
+.ProfileMainComment {
+   margin-top: 10px;
+   grid-area: ProfileComment;
+}
+
+.ProfileHeader {
+   grid-area: ProfileHeader;
+}
+
+.ProfileMain {
+   grid-area: ProfileMain;
+}
